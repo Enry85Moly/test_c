@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "complex.h": "c",
+        "stdio.h": "c"
+    },
+	"cSpell.enabled": false,
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "h",
+    ]
+}
