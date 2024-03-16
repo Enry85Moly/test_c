@@ -6,7 +6,7 @@ struct Complesso
     float imm;
 };
 
-// funzioni pubbliche (definizioni)
+// funzioni pubbliche che accedono ai campi interni della struct Complesso (definizioni)
 
 Complesso* Crea_Complesso(const float r, const float i)
 {
