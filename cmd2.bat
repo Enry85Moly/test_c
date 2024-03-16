@@ -9,7 +9,7 @@ del /Q /S .\work\*.o .\work\*.exe >nul
 
 rem Compila tutti i file sorgente .c nella sotto-directory Sw4
 for %%i in (".\Sw4\*.c") do (
-    gcc -pipe -std=c11 -w -ggdb -c -fpermissive -malign-double -O%2 "%%i" -o ".\work\%%~ni.o" -x c11
+    gcc -pipe -std=c11 -w -ggdb -c -fpermissive -malign-double -O%2 "%%i" -o ".\work\%%~ni.o"
 )
 
 if errorlevel 1 goto end
