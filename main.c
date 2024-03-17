@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "complex.h"
 
+// esempio
 void main(void)
 {
     Complesso* c1 = Crea_Complesso(3.4, -0.8); // costruttore nello heap
