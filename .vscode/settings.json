@@ -1,7 +1,9 @@
 {
     "files.associations": {
         "complex.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "unit_test_complex.h": "c",
+        "assert.h": "c"
     },
 	"cSpell.enabled": false,
     "cSpell.enabledLanguageIds": [
