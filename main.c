@@ -25,5 +25,6 @@ void main(void)
     Distruggi_Complesso(c4);
     //-------------------------------------------------------------------------------
     test_somma();
+    // dummy LOOP
     while(1);
 }
